@@ -23,8 +23,8 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=1869793387549476&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-<!-- Fallback sem JavaScript: redireciona após 3s -->
-<noscript><meta http-equiv="refresh" content="3;url=https://conheca100zinhodasorte.me"></noscript>
+<!-- Fallback sem JavaScript: redireciona após 6s -->
+<noscript><meta http-equiv="refresh" content="6;url=https://conheca100zinhodasorte.me"></noscript>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
@@ -111,7 +111,7 @@ p{margin:0 0 26px;color:var(--texto-suave);font-size:15px;line-height:1.55;font-
       <circle class="trilho" cx="60" cy="60" r="54" fill="none" stroke-width="8"/>
       <circle class="prog" id="prog" cx="60" cy="60" r="54" fill="none" stroke-width="8"/>
     </svg>
-    <div class="num" id="num">3</div>
+    <div class="num" id="num">5</div>
     <div class="ok"><svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="#1fae5b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
   </div>
 
@@ -131,7 +131,7 @@ p{margin:0 0 26px;color:var(--texto-suave);font-size:15px;line-height:1.55;font-
 (function(){
   /* ===== CONFIGURAÇÃO ===== */
   var DESTINO  = "https://conheca100zinhodasorte.me"; // URL final
-  var SEGUNDOS = 3;                             // tempo até redirecionar
+  var SEGUNDOS = 5;                             // tempo até redirecionar
   /* ======================== */
 
   // Repassa UTMs / parâmetros da URL atual (?utm_source=... etc.) para o destino
@@ -156,8 +156,8 @@ p{margin:0 0 26px;color:var(--texto-suave);font-size:15px;line-height:1.55;font-
     if(p<1){ requestAnimationFrame(tick); return; }
     document.getElementById("card").classList.add("feito");
     document.getElementById("titulo").innerHTML = 'Acesso<br><span>liberado!</span>';
-    document.getElementById("sub").textContent = "Redirecionando…";
-    setTimeout(ir, 250);
+    document.getElementById("sub").textContent = "Redirecionando você agora…";
+    setTimeout(ir, 600);
   }
   requestAnimationFrame(tick);
 })();
